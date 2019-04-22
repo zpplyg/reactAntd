@@ -1,0 +1,119 @@
+#i3-ui-header-con{
+    box-sizing: border-box;
+    padding: 16px;
+    height: 80px;
+    background: #fff;
+    float: left;
+    width: 100%;
+    // min-width: 1000px;
+    .i3-ui-header-left{
+        float: left;
+        overflow: hidden;
+        .i3-ui-logo-con{
+            float: left;
+            font-size: 20px;
+            color: #000;
+            font-weight: bold;
+            height: 48px;
+            line-height: 48px;
+            width: 145px;
+            text-align: center;
+            margin-right: 16px;
+            .i3-ui-logo{
+                width: 145px;
+                height: 48px;
+            }
+        }
+        .i3-ui-line{
+            float: left;
+            margin-right: 14px;
+            width: 2px;
+            height: 48px;
+            background: #555;
+        }
+        .i3-ui-systerm-name{
+            float: left;
+            height: 48px;
+            line-height: 48px;
+            font-size: 28px;
+            color: #000;
+        }
+    }
+    .i3-ui-header-right{
+        float: right;
+        vertical-align: middle;
+        .i3-ui-header-dropdown {
+            height: 48px;
+            cursor: pointer;
+            float: right;
+            .i3-ui-down-icon {
+                color: #999999;
+                float: right;
+                margin-top: 16px;
+                margin-left: 15px;
+                font-size: 16px;
+            }
+            .i3-ui-username-con {
+                float: right;
+                padding-top: 10px;
+                font-size: 12px;
+                line-height: 1.2;
+                .i3-ui-Administrator{
+                    color: #000900
+                }
+                .i3-ui-username{
+                    color: #999999
+                }
+
+            }
+            .i3-ui-avator {
+                width: 36px;
+                height: 36px;
+                margin-top: 6px;
+                float: right;
+                margin-right: 10px;
+                border-radius: 4px;
+            }
+        }
+        .i3-ui-badge-dropdown {
+            float: right;
+            // margin-top: 16px;
+            cursor: pointer;
+            .clock-info {
+                color: #a2a2a2;
+                font-size: 20px;
+                cursor: pointer;
+            }
+            .i3-ui-setting-icon{
+                color: #a2a2a2;
+                font-size: 20px;
+                margin-left: 16px;
+                cursor: pointer;
+            }
+        }
+        .i3-ui-line{
+            float: right;
+            width: 2px;
+            height: 48px;
+            background: #dddddd;
+            margin: 0 17px;
+        }
+    }
+    
+}
+.i3-ui-theme-con{
+    .i3-ui-theme{
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        background: red;
+        margin-right: 3px;
+    }
+}
+@media screen and(max-width: 700px){
+    #i3-ui-header-con{
+        .i3-ui-header-right{
+            display: none;
+        }
+    }
+}

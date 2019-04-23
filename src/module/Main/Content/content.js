@@ -5,6 +5,7 @@ import ListPage from "../../ListPage/listPage";
 import FormPage from "../../FormPage/formPage";
 import ErrorPage from "../../ErrorPage/errorPage";
 import FormTemp from "../../FormTemp/FormTemp";
+import TableTemp from "../../TableTemp/TableTemp";
 import "./content.less";
 
 class Content extends Component {
@@ -17,6 +18,7 @@ class Content extends Component {
           <Route path="/main/formPage" component={FormPage} />
           <Route path="/main/errorPage" component={ErrorPage} />
           <Route path="/main/FormTemp" component={FormTemp} />
+          <Route path="/main/TableTemp" component={TableTemp} />
         </Switch>
       </div>
     );

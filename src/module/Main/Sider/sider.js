@@ -119,6 +119,18 @@ const menuData = [
         URL: "/main/FormTemp/Login"
       }
     ]
+  },
+  {
+    MenuID: "8",
+    Icon: "setting",
+    Name: "表格模板",
+    Children: [
+      {
+        MenuID: "64",
+        Name: "表格一",
+        URL: "/main/TableTemp/TableOne"
+      }
+    ]
   }
 ];
 

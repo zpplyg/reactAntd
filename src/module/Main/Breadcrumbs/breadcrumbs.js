@@ -26,6 +26,9 @@ const breadcrumbNameMap = {
 
   "/main/FormTemp": "表单模板",
   "/main/FormTemp/Login": "登录",
+
+  "/main/TableTemp": "表格模板",
+  "/main/TableTemp/TableOne": "表格一"
 };
 
 const Home = withRouter(props => {

@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import {Card,Form,Button,Input,Icon,message} from "antd";
-import { userInfo } from 'os';
 const FormItem=Form.Item;
  class Login extends Component {
    handleSubmit=(e)=>{
